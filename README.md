@@ -1,2 +1,2 @@
-# -degadillo-frontend
-Learning project for the Front-End Web Dev course: http://skl.sh/38QMLeD
+# Responsive Website Header Exercise
+Learning how to make responsive header to use it in my projects.
