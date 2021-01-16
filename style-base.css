@@ -1,0 +1,122 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+body{
+    width: 80%;
+    margin: auto;
+    background-color: #040015;
+    border-left: 2px  #ff725c solid;
+    border-right: 2px  #ff725c solid;
+}
+
+header
+{   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 190px;
+    z-index: 10;  
+    border: 2px  #ff725c solid; 
+}
+
+header .logo
+{
+    margin-right: 480px;
+    font-size: 1.5em;
+    color: #ff725c; 
+    font-weight: 600;
+    border: 2px  #ff725c solid;
+}
+
+header .navigation
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    border: 2px  #ff725c solid;
+}
+
+header li
+{
+    list-style: none;
+    margin: 0 10px;
+}
+
+a
+{
+    color:#ff725c; 
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+a:hover
+{
+    color: #e6b200; 
+}
+
+
+.banner
+{
+    background: #040015;
+    padding: 5px 100px 100px 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #D6D6D6;
+}
+.banner img 
+{
+/* {   position: relative;
+    left: -120px; */
+    max-width: 600px;
+    padding: 50px;
+    border: 2px  #ff725c solid;
+}
+
+
+.content
+{   
+    
+    max-width: 700px;
+    text-align: justify;
+    border: 2px  #ff725c solid;
+}
+
+.content h2 {
+    padding: 10px 0;
+    font-size: 2.6em;
+    color: #ff725c;
+}
+
+
+.content a
+{
+    display: inline-block;
+    background:  #ff725c;
+    color: #040015;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+.content p
+{
+    line-height: 1.75;
+}
